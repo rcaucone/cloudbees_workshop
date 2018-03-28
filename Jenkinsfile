@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('My Test Stage') {
       steps {
-        sh 'git --version'
+        sh 'printenv'
       }
     }
   }
